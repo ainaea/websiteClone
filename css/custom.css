@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 50px 150px;
+    height: 500px;
+    background-color: white;
+}
+
+.container .row{
+    height: 100%;
+}
+
+.container .row .sides{
+    height: 100%;
+    padding: 0;
+    
+}
+
+.container .row .left{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container .row .left .cards{
+    background-color: green;
+    color: white;
+    height: 70px;
+    width: 100%;
+    border-radius: 12px;
+    padding-top: 6%;
+    padding-left: 50px;
+}
+
+.container .row .left .cards h6{
+    /* background-color: rebeccapurple; */
+    height: 50%;
+    font-size: 16px;
+    /* padding-top: 25%; */
+    
+}
+
+.container .row .left .cards h6 i{
+    font-size: 30px;
+    padding-right: 7px;
+}
+
+.container .row .left .cards h6:hover{
+    color: rgb(172, 230, 66);
+}
+
+.container .row .right{
+    padding: 0;
+    margin-left: -20px;
+    background-color: white;
+    
+}
+
+.container .row .right .container{
+    margin: 0;
+    padding-left: 55px;
+    padding-top: 30px;
+}
+
+.container .row .right .container #listHost{
+    width: 100%;
+    /* height: 100%; */
+    padding: 0;
+    margin: 0;
+}
+
+.container .row .right .container #listHost ul{
+    background-color: white;
+    padding-left: 14px;
+    /* margin: 0; */
+}
+
+.container .row .right .container .image{ 
+    background-color: white;
+    height: 320px;
+}
+
+.container .row .right .container .image img{
+    height: 320px;
+    width: 595px;
+}
+
+#card1{
+    background-color: rgba(0, 14, 78, 0.774);
+}
+#card2{
+    background-color: rgb(64, 128, 224);
+}
+#card3{
+    background-color: rgb(17, 161, 161);
+}
+#card4{
+    background-color: rgb(133, 130, 130);
+}
+#card5{
+    background-color: orangered;
+}
+#card6{
+    background-color: rgb(9, 66, 170);
+}

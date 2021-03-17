@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap');
+
+/* font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+body{
+    font-family: 'Oswald', sans-serif; 
+}
+
+.navbar{
+    height: 80px;
+    -webkit-box-shadow: 0px 6px 7px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow:    0px 6px 7px 0px rgba(0, 0, 0, 0.15);
+    box-shadow:         0px 6px 7px 0px rgba(0, 0, 0, 0.15);
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+
+.navbar-light, .bg-light{
+    background-color: #fff !important;
+}
+
+.btn.btn-default{
+    background-color: transparent;
+    border: 2px solid rgb(8, 54, 151);
+    padding: 7px 15px !important;
+    margin: 0 10px;
+    font-size: 18px;
+    height: 45px;
+    width: 160px;
+    color: rgb(8, 54, 151) !important;
+}
+
+
+.banner{
+    padding-top: 12%;
+}
+
+.banner h4{
+    color: darkgray;
+}
+
+.banner h1{
+    font-size: 55px;
+}
+
+.agency{
+    background-color: rgb(231, 225, 225);
+    padding: 6% 0;
+}
+
+
+
+/* 
+Ebenzer */
+.graytext{
+    color: rgb(133, 129, 129);
+}
+
+.img-box{
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    background-image: url(../images/team2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box1{
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    background-image: url(../images/team1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.blue{
+    color: rgb(21, 116, 206);
+}
+
+
+
+/* 
+Ayokunle
+*/
+.technology{
+    background-color: rgb(231, 225, 225);
+    padding: 6% 0;
+}
+
+.tech{
+    padding-top: 3%;
+}
+
+.tech h4{
+    color: darkgray;
+}
+
+.tech h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.counter {
+    padding: 5% 0;
+}
+
+.counter h5 {
+    color: darkgrey;
+}
+
+.counter h1 {
+    color: rgb(85, 134, 224);
+}
+
+.counter h4 {
+    color: black;
+}
+
+/* .counter .line {
+    border-left: 1px solid darkgrey;
+
+} */
+
+/* 
+Juwon
+*/
+
+.contact-box {
+    padding-top: 10%;
+}
+
+
+
+.footer{
+    background-color: #fff;
+    width:100%;
+}
+
+.form-control{
+    width: 250px;
+}
+
+.footer a{
+    color: rgb(32, 31, 31);
+    display: block;
+}
+
+.footer .row .contact-link2{
+    display: flex;
+
+}
+
+
+
+
+
+
